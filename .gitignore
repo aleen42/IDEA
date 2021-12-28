@@ -105,3 +105,6 @@ dist
 
 # IDEA
 .idea
+
+# locked dependencies
+package-lock.json
