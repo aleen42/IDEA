@@ -1,5 +1,5 @@
 {
-  "name"            : "@coremail/idea",
+  "name"            : "@aleen42/idea",
   "version"         : "1.0.0",
   "description"     : "The IDEA cypher implementation in JavaScript",
   "main"            : "dist/idea.min.js",

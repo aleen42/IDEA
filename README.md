@@ -1,21 +1,21 @@
-# IDEA
+## IDEA
 
 ![npm](https://badges.aleen42.com/src/npm.svg) ![javascript](https://badges.aleen42.com/src/javascript.svg)
 
 It is about the IDEA cypher which is implemented in JavaScript within ~10 KiB. If you want better compatibility, you may need the polyfill version `dist/idea.all.js`, which has shimmed [`Int8Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array) for you.
 
-## Compatibility
+### Compatibility
 
 - IE6+ (polyfills required for ES7- browsers)
 - NodeJS
 
-## Install
+### Install
 
 ```bash
-npm install @cormeail/idea
+npm install @aleen42/idea
 ```
 
-## Usage
+### Usage
 
 - without padding:
 
@@ -44,3 +44,17 @@ npm install @cormeail/idea
     const idea = new IDEA(str2bytes('private key'), /* ENC3 by default */197);
     idea.encrypt(encoder.encode('message')); // => Int8Array[]
     ```
+
+
+### Release History
+
+* ==================== **1.0.0 Initial release** ====================
+
+
+### :fuelpump: How to contribute
+
+Have an idea? Found a bug? See [how to contribute](https://wiki.aleen42.com/contribution.html).
+
+### :scroll: License
+
+[MIT](https://wiki.aleen42.com/MIT.html) © aleen42
