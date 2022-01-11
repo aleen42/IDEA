@@ -8,7 +8,7 @@ const IDEA = require('../lib/index.js');
 const encoding = require('text-encoding');
 
 typeof TextEncoder === 'undefined' && (TextEncoder = encoding.TextEncoder);
-typeof TextDecoder === 'undefined' && (TextDecoder = encoding.TextEncoder);
+typeof TextDecoder === 'undefined' && (TextDecoder = encoding.TextDecoder);
 
 const encoder = new TextEncoder();
 const decoder = new TextDecoder();
