@@ -2,7 +2,7 @@
 
 ![npm](https://badges.aleen42.com/src/npm.svg) ![javascript](https://badges.aleen42.com/src/javascript.svg)
 
-It is about the IDEA cypher which is implemented in JavaScript within ~10 KiB. If you want better compatibility, you may need the polyfill version `dist/idea.all.js`, which has shimmed [`Int8Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array) for you.
+It is about the [International Data Encryption Algorithm, a.k.a IDEA](https://en.m.wikipedia.org/wiki/International_Data_Encryption_Algorithm) cypher which is implemented in JavaScript within ~10 KiB. If you want better compatibility, you may need the polyfill version `dist/idea.all.js`, which has shimmed [`Int8Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array) for you.
 
 ### Compatibility
 
